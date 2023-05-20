@@ -2,6 +2,5 @@ pytube
 gradio
 openai
 faiss-cpu
-datetime
 langchain
 git+https://github.com/openai/whisper.git
