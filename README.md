@@ -14,7 +14,7 @@ python app.py
 ```
 
 # Known Issues
-- Replace with an open-source alternative to OpenAI ada embeddings. See [mbeddings]https://python.langchain.com/en/latest/reference/modules/embeddings.html).
+- Replace with an open-source alternative to OpenAI ada embeddings. See [embeddings](https://python.langchain.com/en/latest/reference/modules/embeddings.html).
 - Docker setup for this webapp.
-- Trial with GPU version of FAISS (not compatible yet for Python 3.10).
+- Trial with [GPU version of FAISS](https://colab.research.google.com/drive/1eMhGmu370Fq2RJcWGcXUzFwaJ0JGrLSR?usp=sharing) (not compatible yet for Python 3.10)
 - Should retrieve embeddings from a known cache (such as Pinecone DB) to avoid re-encoding already visited videos.
