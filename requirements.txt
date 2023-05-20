@@ -1,0 +1,7 @@
+whisper
+pytube
+gradio
+openai
+faiss-cpu
+datetime
+langchain
