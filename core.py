@@ -46,8 +46,6 @@ def create_vector_store(text, temp_dir, api_key):
 
     embeddings = OpenAIEmbeddings(openai_api_key=api_key)
     store = FAISS.from_texts(docs, embeddings, metadatas=metadatas)
-    index_path = os.path.join(temp_dir, "docs.index")
-    faiss.write_index(store.index, index_path)
     return store
 
 def query_chain(store, question, api_key):
